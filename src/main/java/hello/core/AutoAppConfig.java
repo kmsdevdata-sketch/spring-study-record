@@ -20,10 +20,10 @@ public class AutoAppConfig {
 //    @Autowired MemberRepository memberRepository;
 //    @Autowired   DiscountPolicy discountPolicy;
 
-    @Bean(name = "memoryMemberRepository")
-    MemberRepository memberRepository() {
-        return new MemoryMemberRepository();
-    }
+//    @Bean(name = "memoryMemberRepository")
+//    MemberRepository memberRepository() {
+//        return new MemoryMemberRepository();
+//    }
 
 //    @Bean
 //    OrderService orderService() {
