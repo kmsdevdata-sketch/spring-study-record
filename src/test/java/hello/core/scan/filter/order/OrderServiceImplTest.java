@@ -1,9 +1,11 @@
-package hello.core.order;
+package hello.core.scan.filter.order;
 
 import hello.core.discount.FixDiscountPolicy;
 import hello.core.member.Grade;
 import hello.core.member.Member;
 import hello.core.member.MemoryMemberRepository;
+import hello.core.order.Order;
+import hello.core.order.OrderServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
